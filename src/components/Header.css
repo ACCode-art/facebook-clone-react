@@ -1,0 +1,117 @@
+.header {
+  display: flex;
+  position: fixed;
+  height: 6vh;
+  width: 100%;
+  z-index: 2;
+  background-color: rgb(36, 37, 38);
+}
+
+.header__left {
+  align-items: center;
+  padding-left: 15px;
+  display: flex;
+  width: 32%;
+  height: 100%;
+}
+
+.header__left > img {
+  width: 40px;
+}
+
+.header__left > input {
+  height: 70%;
+  margin-left: 10px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  width: 210px;
+  padding-left: 20px;
+  background-color: rgb(58, 59, 60);
+  color: white;
+}
+
+.header__middle {
+  display: flex;
+  align-items: center;
+  width: 36%;
+  height: 100%;
+}
+
+.header__middle > .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 20%;
+  transition: 300ms;
+  border-radius: 10px;
+}
+
+.header__middle > .icon:hover {
+  cursor: pointer;
+  background-color: rgb(78, 79, 80);
+}
+
+.header__middle > .icon > .MuiSvgIcon-root {
+  font-size: 30px;
+  color: rgb(176, 179, 184);
+}
+
+.header__right {
+  padding-right: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 32%;
+
+  height: 100%;
+}
+
+.header__right > .profileContainer {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 60%;
+  margin: 0 5px;
+  border-radius: 30px;
+}
+
+.header__right > .profileContainer > p {
+  margin-left: 5px;
+  color: rgb(176, 179, 184);
+  font-weight: bold;
+}
+
+.header__right > .profileContainer > .MuiAvatar-root {
+  margin-left: 5px;
+  height: 30px;
+  width: 30px;
+}
+
+.header__right > .profileContainer:hover {
+  background-color: rgb(58, 59, 60);
+  cursor: pointer;
+}
+
+.header__right > .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 60%;
+  margin: 0 5px;
+  border-radius: 20px;
+  background-color: rgb(58, 59, 60);
+  transition: 300ms;
+}
+
+.header__right > .circle:hover {
+  cursor: pointer;
+  background-color: rgb(78, 79, 80);
+}
+
+.header__right > .circle > .MuiSvgIcon-root {
+  color: rgb(176, 179, 184);
+  font-size: 20px;
+}

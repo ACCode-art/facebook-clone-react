@@ -1,0 +1,51 @@
+.rooms {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: green;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 12px 15px;
+  background-color: rgb(36, 37, 38);
+  overflow: hidden;
+}
+
+.createRoom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(38, 57, 81);
+  border-radius: 25px;
+  min-width: 150px;
+  height: 100%;
+  color: white;
+  margin-right: 15px;
+  transition: 300ms;
+}
+
+.createRoom:hover {
+  background-color: rgb(78, 79, 80);
+  cursor: pointer;
+}
+
+.createRoom > p {
+  margin-left: 5px;
+  margin-bottom: 1px;
+  color: rgb(65, 145, 255);
+  font-weight: bold;
+}
+
+.createRoom > .MuiSvgIcon-root {
+  color: rgb(194, 3, 194);
+}
+
+.rooms > .MuiAvatar-root {
+  margin-right: 15px;
+  transition: 300ms;
+  opacity: 0.8;
+}
+
+.rooms > .MuiAvatar-root:hover {
+  opacity: 1;
+  cursor: pointer;
+}

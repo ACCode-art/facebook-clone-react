@@ -1,0 +1,61 @@
+.mainInput {
+  height: 124px;
+  background-color: rgb(36, 37, 38);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.mainInput__top {
+  padding: 10px 15px;
+  display: flex;
+  height: 50%;
+}
+
+.mainInput__top > input {
+  width: 100%;
+  margin-left: 10px;
+  border-radius: 25px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(58, 59, 60);
+  color: white;
+  font-size: 17px;
+}
+
+.borderLine {
+  height: 1px;
+  background-color: rgb(58, 59, 60);
+  width: 95%;
+  margin: 0 15px;
+}
+
+.mainInput__bottom {
+  padding: 10px 15px;
+  display: flex;
+  height: 50%;
+}
+
+.icons {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 300ms;
+  border-radius: 10px;
+}
+
+.icons > .MuiSvgIcon-root {
+  font-size: 30px;
+  color: white;
+}
+
+.icons > p {
+  margin-left: 5px;
+  color: rgb(176, 179, 184);
+}
+
+.icons:hover {
+  background-color: rgb(58, 59, 60);
+  cursor: pointer;
+}

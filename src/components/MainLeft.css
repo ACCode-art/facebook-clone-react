@@ -1,0 +1,29 @@
+.mainLeft {
+  position: fixed;
+  background-color: rgb(24, 25, 26);
+  width: 19vw;
+  height: 95vh;
+  top: 6vh;
+}
+
+.line {
+  width: 95%;
+  height: 1px;
+  background-color: rgb(62, 64, 66);
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.topMargin {
+  height: 20px;
+}
+
+.shortCuts {
+  display: flex;
+  color: rgb(124, 126, 129);
+  height: 40px;
+
+  margin-left: 10px;
+
+  align-items: center;
+}

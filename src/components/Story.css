@@ -1,0 +1,27 @@
+.story {
+  height: 100%;
+  min-width: 108px;
+  background-image: url("https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  border-radius: 10px;
+  margin-right: 8px;
+  background-position: center;
+  background-size: cover;
+  transition: 300ms;
+}
+
+.story > .MuiAvatar-root {
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 3px solid rgb(46, 137, 255);
+}
+
+.story > p {
+  color: white;
+  margin-top: 100px;
+  margin-left: 5px;
+}
+
+.story:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}

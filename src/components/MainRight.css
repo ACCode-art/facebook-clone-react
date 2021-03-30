@@ -1,0 +1,75 @@
+.mainRight {
+  position: fixed;
+  background-color: rgb(24, 25, 26);
+  width: 19vw;
+  top: 6vh;
+  height: 95vh;
+  right: 0;
+  overflow-y: scroll;
+}
+
+.contacts {
+  color: rgba(220, 222, 227, 0.63);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.yourPages {
+  color: rgba(220, 222, 227, 0.63);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.contactsRight {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.yourPagesRight {
+  width: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.yourPages > h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contacts > h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.createPromotion {
+  color: rgb(220, 222, 227);
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 30px;
+}
+
+.createPromotion > p {
+  margin: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(220, 222, 227, 0.63);
+}
+
+.createPromotion > .MuiSvgIcon-root {
+  color: rgba(220, 222, 227, 0.63);
+}
+
+.bl {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.274);
+
+  margin: 5px 10px;
+}

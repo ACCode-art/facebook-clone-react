@@ -1,0 +1,31 @@
+.mainRightOption {
+  height: 52px;
+  display: flex;
+}
+
+.mainRightOption {
+  display: flex;
+  align-items: center;
+  height: 52px;
+  border-radius: 10px;
+  transition: 300ms;
+  margin-right: 5px;
+}
+
+.mainRightOption:hover {
+  background-color: rgb(48, 48, 49);
+  cursor: pointer;
+}
+
+.mainRightOption > .MuiAvatar-root {
+  width: 36px;
+  height: 36px;
+  margin-left: 10px;
+  color: rgb(220, 222, 227);
+}
+
+.mainRightOption > h4 {
+  margin-left: 10px;
+  font-weight: 500;
+  color: rgb(220, 222, 227);
+}
